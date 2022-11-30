@@ -1,0 +1,57 @@
+:root{
+    --fondo: #252525;
+    --principal: #ffa400;
+    --secundario: #fc2933;
+    --blanco: #fff;
+    --gradiente: linear-gradient(to right, #ffa100, #fb103d);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background: var(--fondo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--blanco);
+    width: 100%;
+}
+
+/************HEADER**************/
+
+
+
+
+/************HERO**************/
+
+
+
+
+/************RECOMENDADOS**************/
+
+
+
+
+/************CATEGORÍAS**************/
+
+
+
+
+/************POPULARES**************/
+
+
+
+
+/************FOOTER**************/
+
+
+
+
