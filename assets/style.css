@@ -1,9 +1,10 @@
 :root{
-    --fondo: #252525;
+    --background: #131415;
+    --cards: #252525;
     --principal: #ffa400;
-    --secundario: #fc2933;
-    --blanco: #fff;
-    --gradiente: linear-gradient(to right, #ffa100, #fb103d);
+    --secondary: #fc2933;
+    --white: #fff;
+    --gradient: linear-gradient(to right, #ffa100, #fb103d);
 }
 
 * {
