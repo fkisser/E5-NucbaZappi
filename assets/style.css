@@ -68,22 +68,22 @@ section:last-child{
 }
 .cards{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 .card{
-    width: 250px;
+    max-width: 250px;
     background: var(--cards);
     padding: 20px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 10px;
 }
 .card img{
     transition: all 0.3s ease;
+    max-width: 100%;
 }
 .card img:hover{
     transform: scale(1.5);
@@ -112,6 +112,7 @@ section:last-child{
     -webkit-background-clip: text;
 }
 .boton{
+    text-align: center;
     font-size: 12px;
     font-weight: 600;
     background: var(--gradient);
