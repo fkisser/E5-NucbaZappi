@@ -20,12 +20,109 @@
 
 /************POPULARES**************/
 @media (max-width: 992px) {
+    .hero-title h1 {
+        font-weight: 700px;
+        font-size: 50px;
+    }
+
+    .hero-title h2 {
+        font-size: 40px;
+        font-weight: 700px;
+    }
+
+    .hero-title p {
+        font-size: 14px;
+        line-height: 80px;
+        font-weight: 400px;
+    }
+
+    .hero-title a {
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 17.07px;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        padding: 15px 40px;
+        background: var(--gradient);
+        border-radius: 15px;
+        line-height: 67px;
+        letter-spacing: 1px;
+    }
+
+    .hero-card {
+        display: flex;
+        justify-content: center;
+        padding-left: 80px;
+    }
     
-}
+    .hero-foto {
+        padding-bottom: 100px;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 300px;
+    }
+
+    }
+
+
+
 
 @media (max-width: 576px) {
     
-}
+    #hero {
+        gap: 10px;
+    }
+
+    .hero-title h1 {
+        font-weight: 700px;
+        font-size: 37px;
+    }
+
+    .hero-title h2 {
+        font-size: 35px;
+        font-weight: 700px;
+    }
+
+    .hero-title p {
+        font-size: 10.5px;
+        line-height: 60px;
+        font-weight: 400px;
+        letter-spacing: 0.3px;
+    }
+
+    .hero-title a {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 17.07px;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        padding: 15px 40px;
+        background: var(--gradient);
+        border-radius: 15px;
+        line-height: 67px;
+        letter-spacing: 1px;
+    }
+
+    .hero-card {
+        display: flex;
+        justify-content: center;
+        padding-left: 80px;
+    }
+    
+    .hero-foto {
+        padding-bottom: 100px;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 300px;
+    }
+
+    }
+
+
 
 /************FOOTER**************/
 
