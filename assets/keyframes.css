@@ -1,0 +1,16 @@
+/************POPULARES**************/
+.card{
+    transition: all 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+.boton{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.boton:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
