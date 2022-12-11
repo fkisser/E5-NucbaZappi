@@ -1,0 +1,46 @@
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-title h1 {
+    animation: fade 1s ease-in,
+    slide-up 1.4s ease-in-out;
+}
+
+.hero-title h2 {
+    animation: fade 1s ease-in,
+    slide-up 1.4s ease-in-out;
+}
+
+.hero-title p {
+    animation: fade 1s ease-in,
+    slide-up 1.4s ease-in-out;
+}
+
+
+.hero-title a {
+    animation: fade 1s ease-in,
+    slide-up 1.4s ease-in-out;
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.hero-card {
+    opacity: 0;
+    animation: fade 1s ease-in forwards,
+    slide-left 1.4s ease-in-out;
+    animation-delay: 0.2s;
+}
