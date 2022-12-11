@@ -1,4 +1,4 @@
-
+/************HERO**************/
 @keyframes fade {
     from {
         opacity: 0;
@@ -43,4 +43,20 @@
     animation: fade 1s ease-in forwards,
     slide-left 1.4s ease-in-out;
     animation-delay: 0.2s;
+}
+/************POPULARES**************/
+.card{
+    transition: all 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+.boton{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.boton:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
 }

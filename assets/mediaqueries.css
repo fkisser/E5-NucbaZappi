@@ -51,7 +51,7 @@
         margin-bottom: 300px;
     }
 
-    }
+}
 
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -100,7 +100,7 @@
         margin-bottom: 300px;
     }
 
-    }
+}
 
 @media (min-width: 576px) and (max-width: 767px) {
     
@@ -153,7 +153,7 @@
         margin-bottom: 300px;
     }
 
-    }
+}
 
  @media  (min-width: 481px) and (max-width: 575px) {
 
@@ -201,7 +201,7 @@
             margin-bottom: 300px;
         }
     
-        }
+}
     
 
 @media (min-width: 483px) and (max-width: 527px) {
@@ -211,19 +211,19 @@
         font-size: 20px;
     }
 
-.hero-title h2 {
+    .hero-title h2 {
         font-size: 18px;
         font-weight: 700px;
     }
 
-.hero-title p {
+    .hero-title p {
         font-size: 9px;
         line-height: 80px;
         font-weight: 400px;
 
     }
 
-.hero-title a {
+    .hero-title a {
         color: white;
         font-size: 6px;
         font-weight: bold;
@@ -237,41 +237,41 @@
         letter-spacing: 1px;
     }
 
-.hero-card {
+    .hero-card {
         display: flex;
         justify-content: center;
         padding-left: 80px;
     }
     
-.hero-foto {
+    .hero-foto {
         padding-bottom: 100px;
         width: 20px;
         height: 20px;
         margin-bottom: 300px;
     }
         
-      }
+}
     
 
 @media (min-width: 320px) and (max-width: 482px) {
         
             
-     .hero-title h1 {
+    .hero-title h1 {
             font-weight: 700px;
             font-size: 20px;
-        }
+    }
     
     .hero-title h2 {
             font-size: 18px;
             font-weight: 700px;
-        }
+    }
     
     .hero-title p {
             font-size: 9px;
             line-height: 80px;
             font-weight: 400px;
     
-        }
+    }
     
     .hero-title a {
             color: white;
@@ -285,27 +285,27 @@
             border-radius: 15px;
             line-height: 67px;
             letter-spacing: 1px;
-        }
+    }
     
     .hero-card {
             display: flex;
             justify-content: center;
             padding-left: 80px;
-        }
+    }
         
     .hero-foto {
             padding-bottom: 100px;
             width: 20px;
             height: 20px;
             margin-bottom: 300px;
-        }
+    }
             
-          }
+}
 
 @media (max-width: 471px) {
     
 
-.hero-title p {
+    .hero-title p {
         font-size: 8px;
         line-height: 80px;
         font-weight: 400px;
@@ -334,8 +334,6 @@
         font-size: 7px;
         line-height: 80px;
         font-weight: 400px;
-
-
     }
 
     .hero-title a {
@@ -366,8 +364,28 @@
 
 
 /************POPULARES**************/
+@media (max-width: 992px) {
 
+}
 
+@media (max-width: 576px) {
+    .cards{
+        gap: 20px;
+    }
+    .card{
+        width: 200px;
+        align-items: center;
+    }
+    .card div{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+    .boton{
+        width: 100%;
+    }
+}
 
 /************FOOTER**************/
 
